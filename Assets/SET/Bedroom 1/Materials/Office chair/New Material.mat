@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Base
+  m_Name: New Material
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -40,11 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-<<<<<<< HEAD:Assets/KYLE/Materials/Bathroom/CRWallsMat.mat
-        m_Texture: {fileID: 2800000, guid: 8da02f7fdeb9def4a807cbfe9045b5e2, type: 3}
-=======
-        m_Texture: {fileID: 2800000, guid: 2d3f16073f817e74ca26282b96b3593b, type: 3}
->>>>>>> d9a35687306d698f7d46d434926e11ecb54de877:Assets/SET/Bedroom 1/Materials/Cabinet/Base.mat
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -67,7 +63,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.07
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -77,6 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
