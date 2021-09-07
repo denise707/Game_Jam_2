@@ -10,6 +10,8 @@ public class MissionScript : MonoBehaviour
 
     //UI
     public GameObject DoneUI;
+    public GameObject GameOverUI;
+    public Text message;
 
     List<string> Possible_Missions = new List<string>()
     {
@@ -62,6 +64,15 @@ public class MissionScript : MonoBehaviour
             textDisplay.Add(newMission);
             newMission.SetActive(true);
         }
+
+        EventBroadcaster.Instance.AddObserver(EventNames.ON_PLAYER_WIN, this.onGameWin);
+        EventBroadcaster.Instance.AddObserver(EventNames.ON_PLAYER_LOSE, this.onGameOver);
+    }
+
+    private void OnDestroy()
+    {
+        EventBroadcaster.Instance.RemoveObserver(EventNames.ON_PLAYER_WIN);
+        EventBroadcaster.Instance.RemoveObserver(EventNames.ON_PLAYER_LOSE);
     }
 
     void GenerateList()
@@ -74,10 +85,10 @@ public class MissionScript : MonoBehaviour
         switch (GameSystem.day)
         {
             case 1: total = 1; break;
-            case 2: total = 10; break;
-            case 3: total = 15; break;
-            case 4: total = 20; break;
-            case 5: total = 25; break;
+            case 2: total = 1; break;
+            case 3: total = 1; break;
+            case 4: total = 1; break;
+            case 5: total = 1; break;
         }
 
         for (int i = 0; i < total; i++)
@@ -91,16 +102,26 @@ public class MissionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Current_Missions.Count == 0)
+        if (Current_Missions.Count == 0 && GameSystem.day < 5)
         {
             GameSystem.loading = true;
             DoneUI.SetActive(true);
+        }
+
+        if (Current_Missions.Count == 0 && GameSystem.day == 5)
+        {
+            EventBroadcaster.Instance.PostEvent(EventNames.ON_PLAYER_WIN);
         }
     }
 
     public void OnNextDay(GameObject Done)
     {
+        Done.SetActive(false);
+
         GameSystem.day++;
+        GameSystem.loading = false;
+
+        Debug.Log(GameSystem.day);
 
         GenerateList();
 
@@ -110,9 +131,7 @@ public class MissionScript : MonoBehaviour
             newMission.GetComponent<Text>().text = Current_Missions[i];
             textDisplay.Add(newMission);
             newMission.SetActive(true);
-        }
-
-        Done.SetActive(false);
+        }       
     }
 
     public void onMinimize(GameObject TaskUI)
@@ -125,5 +144,22 @@ public class MissionScript : MonoBehaviour
         {
             TaskUI.SetActive(true);
         }
+    }
+
+    public void onGameOver()
+    {
+        GameOverUI.SetActive(true);
+        message.text = "Game Over";
+    }
+
+    public void onGameWin()
+    {
+        GameOverUI.SetActive(true);
+        message.text = "Game Win";
+    }
+
+    public void onClose(GameObject window)
+    {
+        window.SetActive(false);
     }
 }
