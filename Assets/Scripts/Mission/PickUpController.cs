@@ -53,7 +53,6 @@ public class PickUpController : MonoBehaviour
         {
             if(ongoing_task == MissionScript.Current_Missions[i])
             {
-                Debug.Log("X");
                 Destroy(MissionScript.textDisplay[i]);
                 MissionScript.Current_Missions.RemoveAt(i);
             }
@@ -74,7 +73,7 @@ public class PickUpController : MonoBehaviour
         switch (ongoing_task)
         {
             case "Clean sofa":
-                loadTime = 5.0f;
+                loadTime = 1.0f;
                 break;
             case "Clean table":
                 loadTime = 3.0f;
