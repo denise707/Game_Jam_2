@@ -10,7 +10,8 @@ public class GameSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        day = 1;
+        loading = false;
     }
 
     // Update is called once per frame
