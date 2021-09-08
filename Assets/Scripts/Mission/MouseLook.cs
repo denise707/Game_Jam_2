@@ -11,7 +11,8 @@ public class MouseLook : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -27,6 +28,16 @@ public class MouseLook : MonoBehaviour
 
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
             playerBody.Rotate(Vector3.up * mouseX);
+        }
+
+        if(Input.GetKeyDown(KeyCode.LeftAlt) && Cursor.visible)
+        {
+            Cursor.visible = false;
+        }
+
+        else if (Input.GetKeyDown(KeyCode.LeftAlt) && !Cursor.visible)
+        {
+            Cursor.visible = true;
         }
     }
 }

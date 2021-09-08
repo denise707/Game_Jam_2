@@ -6,7 +6,6 @@ public class GameSystem : MonoBehaviour
 {
     public static int day = 1;
     public static bool loading = false;
-    public static string current_task = "";
 
     // Start is called before the first frame update
     void Start()
