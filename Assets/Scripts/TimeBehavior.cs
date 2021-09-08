@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class TimeBehavior : MonoBehaviour
 {
+    [SerializeField] GameObject sun = null;
+
     private Text timeText;
     private int day = 1;
     private int hour = 0;
@@ -20,7 +22,7 @@ public class TimeBehavior : MonoBehaviour
     {
         if (!(day == 7 && hour == 23 && minute >= 59.0f))
         {
-            minute += Time.deltaTime * 25f;
+            minute += Time.deltaTime * 2f;
 
             if (minute >= 60.0f)
             {
@@ -44,5 +46,16 @@ public class TimeBehavior : MonoBehaviour
         }
 
         timeText.text = "Day: " + day.ToString() + "\n" + hour.ToString("00") + ":" + (Mathf.Round(minute)).ToString("00");
+
+        if(sun != null)
+            UpdateSunPos();
+    }
+
+    private void UpdateSunPos()
+    {
+        Vector3 sunPos = Vector3.zero;
+        sunPos.x = 360 * (((60 * hour) + minute)/(60 * 24));
+        Debug.Log(sunPos.x);
+        sun.transform.eulerAngles = sunPos;
     }
 }
