@@ -90,11 +90,11 @@ public class MissionScript : MonoBehaviour
 
         switch (GameSystem.day)
         {
-            case 1: total = 1; break;
-            case 2: total = 1; break;
-            case 3: total = 1; break;
-            case 4: total = 1; break;
-            case 5: total = 1; break;
+            case 1: total = 5; break;
+            case 2: total = 10; break;
+            case 3: total = 15; break;
+            case 4: total = 20; break;
+            case 5: total = 25; break;
         }
 
         for (int i = 0; i < total; i++)
@@ -108,14 +108,14 @@ public class MissionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Current_Missions.Count == 0 && GameSystem.day < 5 && TempTime.hour < 23 && !gameOver)
+        if (Current_Missions.Count == 0 && GameSystem.day < 5 && TempTime.hour < 24 && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
             DoneUI.SetActive(true);
         }
 
-        else if (TempTime.hour >= 23 && !gameOver)
+        else if (TempTime.hour >= 24 && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
@@ -132,7 +132,7 @@ public class MissionScript : MonoBehaviour
             }            
         }
 
-        else if (Current_Missions.Count == 0 && GameSystem.day == 5 && TempTime.hour < 23 && !gameOver)
+        else if (Current_Missions.Count == 0 && GameSystem.day == 5 && TempTime.hour < 24 && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
