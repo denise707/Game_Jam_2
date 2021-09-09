@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149676502823992685}
   m_Layer: 0
-  m_Name: Bedroom Lights
+  m_Name: Square lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
