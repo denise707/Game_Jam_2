@@ -13,6 +13,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.92283714, y: 0.5988584, z: 1.5315688}
   m_Center: {x: 0.038581513, y: 0.013093159, z: 0.26578334}
+--- !u!114 &657871785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249247179869010742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!65 &2297946163123579238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26,6 +41,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 2.476058}
   m_Center: {x: 0, y: -0, z: 0.73802286}
+--- !u!114 &149126209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249247179931428291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!65 &67538849227750887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39,6 +69,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15.357098, y: 16.990929, z: 58.668114}
   m_Center: {x: -0.000004053116, y: 0.000020503998, z: 29.210194}
+--- !u!114 &1674989951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249247180107255164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &8249247181002120921
 GameObject:
   m_ObjectHideFlags: 0
@@ -74,8 +119,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3782389310764744837
-BoxCollider:
+--- !u!64 &2083724440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249247181049879427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &2083724439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249247181049879427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+--- !u!64 &539725067
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -84,9 +158,25 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.6936665, y: 2.211678, z: 0.8631823}
-  m_Center: {x: 0.0049128123, y: 0.55545163, z: 0.47097802}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!114 &539725066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8249247181691679635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1001 &8249247179869109650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105,6 +195,10 @@ PrefabInstance:
     - target: {fileID: 100004, guid: ea90797f5a8073e4cbc72f859e3782b8, type: 3}
       propertyPath: m_Name
       value: toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ea90797f5a8073e4cbc72f859e3782b8, type: 3}
+      propertyPath: m_TagString
+      value: Clean toilet
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: ea90797f5a8073e4cbc72f859e3782b8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -204,6 +298,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 55b6504ee3e22e44f81ec10519df607d, type: 3}
       propertyPath: m_Name
       value: shower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 55b6504ee3e22e44f81ec10519df607d, type: 3}
+      propertyPath: m_TagString
+      value: Take shower
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 55b6504ee3e22e44f81ec10519df607d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -309,6 +407,10 @@ PrefabInstance:
       value: rack_3 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 3}
+      propertyPath: m_TagString
+      value: Clean cabinet (Restroom)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -402,6 +504,10 @@ PrefabInstance:
     - target: {fileID: 100010, guid: 3ef68bc6de3dfab4daadb71aec4656bf, type: 3}
       propertyPath: m_Name
       value: modular_kitchen_table_4_INV
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 3ef68bc6de3dfab4daadb71aec4656bf, type: 3}
+      propertyPath: m_TagString
+      value: Wash hands
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 3ef68bc6de3dfab4daadb71aec4656bf, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -513,6 +619,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e7adeb3f0c115c14a865a8bc33f8d501, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ef68bc6de3dfab4daadb71aec4656bf, type: 3}
+--- !u!1 &8249247181049879427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: 3ef68bc6de3dfab4daadb71aec4656bf, type: 3}
+  m_PrefabInstance: {fileID: 8249247181049912617}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8249247181049513891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 3ef68bc6de3dfab4daadb71aec4656bf, type: 3}
@@ -544,6 +655,10 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 8bc0238f058e4164f9eb9123a975cbe6, type: 3}
       propertyPath: m_Name
       value: modular_kitchen_table_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 8bc0238f058e4164f9eb9123a975cbe6, type: 3}
+      propertyPath: m_TagString
+      value: Clean cabinet (Restroom)
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 8bc0238f058e4164f9eb9123a975cbe6, type: 3}
       propertyPath: m_StaticEditorFlags
