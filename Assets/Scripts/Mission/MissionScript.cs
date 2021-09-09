@@ -108,14 +108,15 @@ public class MissionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Current_Missions.Count == 0 && GameSystem.day < 5 && TempTime.hour < 24 && !gameOver)
+        bool dayOver = (TempTime.hour == 23 && TempTime.minute >= 59);
+        if (Current_Missions.Count == 0 && GameSystem.day < 5 && !dayOver && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
             DoneUI.SetActive(true);
         }
 
-        else if (TempTime.hour >= 24 && !gameOver)
+        else if (dayOver && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
@@ -132,7 +133,7 @@ public class MissionScript : MonoBehaviour
             }            
         }
 
-        else if (Current_Missions.Count == 0 && GameSystem.day == 5 && TempTime.hour < 24 && !gameOver)
+        else if (Current_Missions.Count == 0 && GameSystem.day == 5 && !dayOver && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
