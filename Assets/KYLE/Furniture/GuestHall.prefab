@@ -2012,7 +2012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4466808713028642308}
   m_Layer: 0
-  m_Name: Garage
+  m_Name: GuestHall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
