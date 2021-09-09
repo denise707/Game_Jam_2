@@ -300,6 +300,7 @@ GameObject:
   - component: {fileID: 3760557864542867982}
   - component: {fileID: 3536361858795986888}
   - component: {fileID: 475058426113141423}
+  - component: {fileID: 7614125527733381517}
   m_Layer: 0
   m_Name: Musa_Chair (5)
   m_TagString: Arrange chairs (Guest Hall)
@@ -384,6 +385,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &7614125527733381517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700189386213035194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &702854720825433071
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +478,7 @@ GameObject:
   - component: {fileID: 3905410982729463042}
   - component: {fileID: 14523331422966079}
   - component: {fileID: 7015137312151745246}
+  - component: {fileID: 6040235092518762086}
   m_Layer: 0
   m_Name: Musa_Chair (7)
   m_TagString: Arrange chairs (Guest Hall)
@@ -546,6 +563,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &6040235092518762086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728171918922609180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &1941969493756657513
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,6 +590,7 @@ GameObject:
   - component: {fileID: 3196942753137698762}
   - component: {fileID: 7856637199401784836}
   - component: {fileID: 1878440828466681125}
+  - component: {fileID: 6221640695071524379}
   m_Layer: 0
   m_Name: Musa_Chair (2)
   m_TagString: Arrange chairs (Guest Hall)
@@ -642,6 +675,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &6221640695071524379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941969493756657513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &2083373034307568721
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,6 +819,21 @@ Transform:
   m_Father: {fileID: 4466808713028642308}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1251358601082173511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179600238446423240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!64 &3378754773771902108
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -855,6 +918,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+--- !u!114 &1035197266849886499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179600238961225484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!64 &4070838155596399033
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1265,6 +1343,7 @@ GameObject:
   - component: {fileID: 1546694920657530906}
   - component: {fileID: 5586362827925509192}
   - component: {fileID: 9212812978854181457}
+  - component: {fileID: 3771249100961859684}
   m_Layer: 0
   m_Name: Musa_Chair (3)
   m_TagString: Arrange chairs (Guest Hall)
@@ -1349,6 +1428,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &3771249100961859684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5232688642404352741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &5997192061453761477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +1551,7 @@ GameObject:
   - component: {fileID: 1145136900716951170}
   - component: {fileID: 4900012171788882802}
   - component: {fileID: 8140794289775383358}
+  - component: {fileID: 7296511840138760945}
   m_Layer: 0
   m_Name: Musa_Chair (4)
   m_TagString: Arrange chairs (Guest Hall)
@@ -1541,6 +1636,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &7296511840138760945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6301822255395892852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &6359852015510467654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,7 +1761,7 @@ GameObject:
   - component: {fileID: 2344663040258308817}
   m_Layer: 0
   m_Name: Recipio_SmallTable
-  m_TagString: Clean table (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1745,6 +1855,7 @@ GameObject:
   - component: {fileID: 6275154221938730174}
   - component: {fileID: 1035219008245535944}
   - component: {fileID: 437717229125501327}
+  - component: {fileID: 6736992965325641267}
   m_Layer: 0
   m_Name: Musa_Chair (1)
   m_TagString: Arrange chairs (Guest Hall)
@@ -1829,6 +1940,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &6736992965325641267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852553056834742235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &7467294699121480442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,9 +1964,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3179600239509956515}
+  - component: {fileID: 5341457100741570464}
   m_Layer: 0
   m_Name: Recipio_SmallTable
-  m_TagString: Untagged
+  m_TagString: Clean table (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1860,6 +1987,21 @@ Transform:
   m_Father: {fileID: 4466808713028642308}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &5341457100741570464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7467294699121480442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &7722683776178118778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1927,6 +2069,7 @@ GameObject:
   - component: {fileID: 1240700558975241143}
   - component: {fileID: 3406909321287786583}
   - component: {fileID: 5424195141184852821}
+  - component: {fileID: 3548370568655978195}
   m_Layer: 0
   m_Name: Musa_Chair (8)
   m_TagString: Arrange chairs (Guest Hall)
@@ -2011,6 +2154,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &3548370568655978195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7952448492467564465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &7963431356748537287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2181,7 @@ GameObject:
   - component: {fileID: 2823303949028690492}
   - component: {fileID: 4833001913294673649}
   - component: {fileID: 2860382190014571736}
+  - component: {fileID: 3453321987630846844}
   m_Layer: 0
   m_Name: Musa_Chair (6)
   m_TagString: Arrange chairs (Guest Hall)
@@ -2107,6 +2266,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3c6609b1560a81f4290337b9d073d317, type: 3}
+--- !u!114 &3453321987630846844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7963431356748537287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &8037090858821342004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,9 +2290,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3179600238751971787}
+  - component: {fileID: 4492123738538763388}
   m_Layer: 0
   m_Name: Recipio_SmallTable (1)
-  m_TagString: Untagged
+  m_TagString: Clean table (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2138,6 +2313,21 @@ Transform:
   m_Father: {fileID: 4466808713028642308}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &4492123738538763388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8037090858821342004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1001 &152574552018189605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2953,24 +3143,29 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0ace71a17ec47254bb42cce82efb789c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
---- !u!1 &3179600238446423244 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
-  m_PrefabInstance: {fileID: 3179600238446455400}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3179600238446850280 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
-  m_PrefabInstance: {fileID: 3179600238446455400}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3179600238446423242 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
   m_PrefabInstance: {fileID: 3179600238446455400}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3179600238446423244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+  m_PrefabInstance: {fileID: 3179600238446455400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3179600238446423246 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+  m_PrefabInstance: {fileID: 3179600238446455400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3179600238446423240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+  m_PrefabInstance: {fileID: 3179600238446455400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3179600238446850280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
   m_PrefabInstance: {fileID: 3179600238446455400}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3179600238931224976
@@ -3141,14 +3336,9 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0ace71a17ec47254bb42cce82efb789c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
---- !u!1 &3179600238961225482 stripped
+--- !u!1 &3179600238961225484 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100006, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
-  m_PrefabInstance: {fileID: 3179600238961125804}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3179600238961225480 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
   m_PrefabInstance: {fileID: 3179600238961125804}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &3179600238960735020 stripped
@@ -3159,6 +3349,16 @@ Transform:
 --- !u!1 &3179600238961225486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+  m_PrefabInstance: {fileID: 3179600238961125804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3179600238961225482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+  m_PrefabInstance: {fileID: 3179600238961125804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3179600238961225480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
   m_PrefabInstance: {fileID: 3179600238961125804}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3567648845354610811
