@@ -13,6 +13,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2771668, y: 0.86340874, z: 1}
   m_Center: {x: 0.006708622, y: -0.017928794, z: 3.2738935e-17}
+--- !u!114 &6427888548425610247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184464833497272111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &1184464833626389280
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,9 +686,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1184464833626089236}
   - component: {fileID: 4808175977514983618}
+  - component: {fileID: 7035448348615460786}
   m_Layer: 0
   m_Name: sofa_4
-  m_TagString: Untagged
+  m_TagString: Dust sofa (Living Room)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -713,8 +729,23 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7463796, y: 1.2775365, z: 0.73144877}
-  m_Center: {x: 0.12936391, y: 0.005931629, z: 0.33907044}
+  m_Size: {x: 2.5070465, y: 0.9169066, z: 0.73144877}
+  m_Center: {x: 0.15871336, y: -0.0062424117, z: 0.33907044}
+--- !u!114 &7035448348615460786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184464833626389300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &1184464833815858546
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,9 +852,10 @@ GameObject:
   - component: {fileID: 1184464834066521309}
   - component: {fileID: 1184464834066521306}
   - component: {fileID: 2607008699252014937}
+  - component: {fileID: 1296253448006002754}
   m_Layer: 0
   m_Name: seat 2 (1)
-  m_TagString: Untagged
+  m_TagString: Dust sofa (Living Room)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -904,6 +936,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 76.189125, y: 69.094055, z: 42.479248}
   m_Center: {x: -0.00003846876, y: -0.0000033220604, z: -12.686128}
+--- !u!114 &1296253448006002754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184464834066521304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!65 &6743605715990001116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -967,6 +1014,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.704223, y: 1, z: 0.6910084}
   m_Center: {x: 0.0020290564, y: 0, z: 0.3254229}
+--- !u!114 &8376236954594376454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184464834659753168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!65 &4401353159373391645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -980,6 +1042,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3517926, y: 0.46095234, z: 1.805215}
   m_Center: {x: 0.001924634, y: -0.00015614186, z: 0.9025604}
+--- !u!114 &5480434533557209742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184464835086092617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
 --- !u!1 &2809565331881579904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1517,10 @@ PrefabInstance:
       value: coffee_table_3
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: b4be6cb63b98d134bacd367e6b052bb2, type: 3}
+      propertyPath: m_TagString
+      value: Clean center table (Living Room)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: b4be6cb63b98d134bacd367e6b052bb2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1675,14 +1756,14 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0697c2e4f36cf424cb3f65fed082ffaa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 3}
---- !u!4 &1184464834269655070 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 3}
-  m_PrefabInstance: {fileID: 1184464834269522590}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1184464834269424702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 3}
+  m_PrefabInstance: {fileID: 1184464834269522590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1184464834269655070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 8fc847fdd92983f43b5183ed20e269a3, type: 3}
   m_PrefabInstance: {fileID: 1184464834269522590}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1184464834659850852
@@ -1738,7 +1819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 9093dcf6b487b4445b317d8469e66af8, type: 3}
       propertyPath: m_TagString
-      value: Clean sofa
+      value: Dust sofa (Living Room)
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 9093dcf6b487b4445b317d8469e66af8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1852,6 +1933,10 @@ PrefabInstance:
       value: Alcor
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 55427371e1fe3d84a8983187ca4f03d6, type: 3}
+      propertyPath: m_TagString
+      value: Clean cabinet (Living Room)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 55427371e1fe3d84a8983187ca4f03d6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1905,13 +1990,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0697c2e4f36cf424cb3f65fed082ffaa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55427371e1fe3d84a8983187ca4f03d6, type: 3}
---- !u!4 &1184464835085604201 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 55427371e1fe3d84a8983187ca4f03d6, type: 3}
-  m_PrefabInstance: {fileID: 1184464835085996009}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1184464835086092617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 55427371e1fe3d84a8983187ca4f03d6, type: 3}
+  m_PrefabInstance: {fileID: 1184464835085996009}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1184464835085604201 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 55427371e1fe3d84a8983187ca4f03d6, type: 3}
   m_PrefabInstance: {fileID: 1184464835085996009}
   m_PrefabAsset: {fileID: 0}
