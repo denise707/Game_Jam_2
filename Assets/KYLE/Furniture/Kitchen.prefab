@@ -1919,6 +1919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: modular_kitchen_table_4
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
+      propertyPath: m_TagString
+      value: Wash dishes
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
       propertyPath: m_RootOrder
       value: 2
