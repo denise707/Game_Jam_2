@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 475058426113141423}
   m_Layer: 0
   m_Name: Musa_Chair (5)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 7015137312151745246}
   m_Layer: 0
   m_Name: Musa_Chair (7)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -560,7 +560,7 @@ GameObject:
   - component: {fileID: 1878440828466681125}
   m_Layer: 0
   m_Name: Musa_Chair (2)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1267,7 +1267,7 @@ GameObject:
   - component: {fileID: 9212812978854181457}
   m_Layer: 0
   m_Name: Musa_Chair (3)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1459,7 +1459,7 @@ GameObject:
   - component: {fileID: 8140794289775383358}
   m_Layer: 0
   m_Name: Musa_Chair (4)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1651,7 +1651,7 @@ GameObject:
   - component: {fileID: 2344663040258308817}
   m_Layer: 0
   m_Name: Recipio_SmallTable
-  m_TagString: Untagged
+  m_TagString: Clean table (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1747,7 +1747,7 @@ GameObject:
   - component: {fileID: 437717229125501327}
   m_Layer: 0
   m_Name: Musa_Chair (1)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1929,7 +1929,7 @@ GameObject:
   - component: {fileID: 5424195141184852821}
   m_Layer: 0
   m_Name: Musa_Chair (8)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2025,7 +2025,7 @@ GameObject:
   - component: {fileID: 2860382190014571736}
   m_Layer: 0
   m_Name: Musa_Chair (6)
-  m_TagString: Untagged
+  m_TagString: Arrange chairs (Guest Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2884,6 +2884,10 @@ PrefabInstance:
       value: Sofa_SL03_Allemuir_Stirling (1)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+      propertyPath: m_TagString
+      value: Relax on couch
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -3066,6 +3070,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
       propertyPath: m_Name
       value: Sofa_SL03_Allemuir_Stirling
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
+      propertyPath: m_TagString
+      value: Relax on couch
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d665ab0e54676a44b836ae17a3cd4318, type: 3}
       propertyPath: m_StaticEditorFlags
