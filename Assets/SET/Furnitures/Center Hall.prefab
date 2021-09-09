@@ -891,6 +891,7 @@ Transform:
   - {fileID: 4686349737565580119}
   - {fileID: 4686349736847146880}
   - {fileID: 7149142702870652371}
+  - {fileID: 2991808751790275377}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2559,4 +2560,78 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bec02bd1057a3ff418a0bc0652b27cff, type: 3}
   m_PrefabInstance: {fileID: 4686349737846201339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8576513268639102514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4686349738241802443}
+    m_Modifications:
+    - target: {fileID: 2869909705918382157, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228560518712237988, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_Name
+      value: Corridor Light (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4579747393951783977, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.029000044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.039000034
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.937436
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8903556422887995710, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+--- !u!4 &2991808751790275377 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6809705789145828611, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+  m_PrefabInstance: {fileID: 8576513268639102514}
   m_PrefabAsset: {fileID: 0}
