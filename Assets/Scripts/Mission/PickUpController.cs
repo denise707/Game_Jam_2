@@ -15,13 +15,20 @@ public class PickUpController : MonoBehaviour
     bool loading = false;
     string ongoing_task = "";
 
+    public bool gameStart = true;
     private void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        loadingUI = GameObject.FindGameObjectWithTag("loadingUI");
     }
 
     private void Update()
     {
+        if(loadingUI.activeInHierarchy && gameStart)
+        {
+            loadingUI.SetActive(false);
+            gameStart = false;
+        }
         Vector3 distanceToPlayer = player.position - transform.position;
         if (distanceToPlayer.magnitude <= pickUpRange && Input.GetKeyDown(KeyCode.E) && !loading) {
             loading = true;
