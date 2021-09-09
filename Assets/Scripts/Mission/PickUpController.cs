@@ -58,11 +58,27 @@ public class PickUpController : MonoBehaviour
     {
         for(int i = 0; i < MissionScript.Current_Missions.Count; i++)
         {
-            if(ongoing_task == MissionScript.Current_Missions[i])
+            if(MissionScript.Current_Missions[i] != null)
             {
-                Destroy(MissionScript.textDisplay[i]);
-                MissionScript.Current_Missions.RemoveAt(i);
-            }
+                if (ongoing_task == MissionScript.Current_Missions[i])
+                {
+                    Debug.Log("Current Mission: " + MissionScript.Current_Missions[i]);
+                    //Destroy(MissionScript.textDisplay[i]);
+                    MissionScript.Current_Missions.RemoveAt(i);
+                }
+            }           
+        }
+
+        for (int j = 0; j < MissionScript.textDisplay.Count; j++)
+        {
+            if (MissionScript.textDisplay[j] != null)
+            {
+                if (MissionScript.textDisplay[j].GetComponent<Text>().text == ongoing_task)
+                {
+                    Debug.Log("Text Display: " + MissionScript.textDisplay[j].GetComponent<Text>().text);
+                    Destroy(MissionScript.textDisplay[j]);
+                }
+            }            
         }
     }
 
@@ -91,7 +107,7 @@ public class PickUpController : MonoBehaviour
             case "Take a nap":
                 loadTime = 10.0f;
                 break;
-            case "Wash dishes,":
+            case "Wash dishes":
                 loadTime = 5.0f;
                 break;
 
@@ -133,9 +149,6 @@ public class PickUpController : MonoBehaviour
             case "Arrange orange paintings":
                 loadTime = 3.0f;
                 break;
-            case "Fix cabinet (Bedroom)":
-                loadTime = 10.0f;
-                break;
             case "Clean center table (Living Room)":
                 loadTime = 5.0f;
                 break;
@@ -145,9 +158,6 @@ public class PickUpController : MonoBehaviour
 
             case "Take shower":
                 loadTime = 10.0f;
-                break;
-            case "Arrange chairs (Guest Hall)":
-                loadTime = 5.0f;
                 break;
             case "Organize vases (Center Hall)":
                 loadTime = 5.0f;
