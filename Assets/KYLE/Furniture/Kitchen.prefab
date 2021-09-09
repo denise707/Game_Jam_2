@@ -165,10 +165,10 @@ GameObject:
   - component: {fileID: 1268336632940721001}
   m_Layer: 0
   m_Name: Kitchen
-  m_TagString: Untagged
+  m_TagString: Wash dishes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336632940721001
 Transform:
@@ -470,7 +470,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336633221852408
 Transform:
@@ -762,7 +762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336633504508921
 Transform:
@@ -942,7 +942,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336633733320169
 Transform:
@@ -1038,7 +1038,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336633922735910
 Transform:
@@ -1162,7 +1162,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336634151449715
 Transform:
@@ -1356,7 +1356,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1268336634503721517
 Transform:
@@ -1442,25 +1442,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1268336632940721001}
     m_Modifications:
-    - target: {fileID: 100000, guid: 708905db3fc5ad84993c9651cd501104, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 708905db3fc5ad84993c9651cd501104, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 708905db3fc5ad84993c9651cd501104, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 708905db3fc5ad84993c9651cd501104, type: 3}
       propertyPath: m_Name
       value: kitchen_shelf_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 708905db3fc5ad84993c9651cd501104, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 708905db3fc5ad84993c9651cd501104, type: 3}
       propertyPath: m_RootOrder
@@ -1547,33 +1531,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1268336632940721001}
     m_Modifications:
-    - target: {fileID: 100000, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
       propertyPath: m_Name
       value: modular_kitchen_table_2 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
       propertyPath: m_RootOrder
@@ -1678,22 +1638,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchen_chair_2
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1782,30 +1726,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
       propertyPath: m_Name
       value: modular_kitchen_table_3
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66e6284526c4a2645a28827f82a71cfd, type: 3}
       propertyPath: m_RootOrder
@@ -1910,22 +1830,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchen_chair_2 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2016,48 +1920,8 @@ PrefabInstance:
       value: modular_kitchen_table_4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100012, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100014, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100016, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100018, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100020, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: m_TagString
+      value: Wash dishes
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 69876b662dbfff945b3239cdac3b1811, type: 3}
       propertyPath: m_RootOrder
@@ -2200,16 +2064,8 @@ PrefabInstance:
       value: Table_97_Artek
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: m_TagString
+      value: Eat lunch
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
       propertyPath: m_RootOrder
@@ -2292,33 +2148,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1268336632940721001}
     m_Modifications:
-    - target: {fileID: 100000, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
       propertyPath: m_Name
       value: kitchen_shelf_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 4529ae99f5841454fbf19e4790d72ff2, type: 3}
       propertyPath: m_RootOrder
@@ -2427,22 +2259,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchen_chair_2 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2531,22 +2347,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_Name
       value: kitchen_chair_2 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_RootOrder
@@ -2637,22 +2437,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchen_chair_2 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2741,22 +2525,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_Name
       value: kitchen_chair_2 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 410463ba8bd9a484cb3ab355dc962d1d, type: 3}
       propertyPath: m_RootOrder
@@ -2848,16 +2616,8 @@ PrefabInstance:
       value: Table_97_Artek (1)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: m_TagString
+      value: Eat lunch
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
       propertyPath: m_RootOrder
@@ -2935,33 +2695,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1268336632940721001}
     m_Modifications:
-    - target: {fileID: 100000, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
       propertyPath: m_Name
       value: modular_kitchen_table_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100010, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0e0146a28c9ff004db1a9e81b928b4a9, type: 3}
       propertyPath: m_RootOrder
@@ -3071,16 +2807,8 @@ PrefabInstance:
       value: Table_97_Artek (2)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      propertyPath: m_TagString
+      value: Eat lunch
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9eb54f3e8326b794aac2ed2c7b7c33c4, type: 3}
       propertyPath: m_RootOrder
@@ -3166,10 +2894,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 729858922008993317, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 1144682577446669617, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3177,10 +2901,6 @@ PrefabInstance:
     - target: {fileID: 1370004786384709907, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1400423830526725523, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1751852751968009722, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3254,17 +2974,9 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3198674341639924663, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 3257913433802051092, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3321827709826875944, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3413247292427756937, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3278,21 +2990,9 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4098364491741253221, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 4283263985197855537, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4451317705327739063, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4807201373102203072, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5111004665202023504, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3314,10 +3014,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6289356515787454803, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6305173471683969963, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3330,10 +3026,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6786433064076361008, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6787528248845274729, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3341,10 +3033,6 @@ PrefabInstance:
     - target: {fileID: 6945564963562894331, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Name
       value: Window
-      objectReference: {fileID: 0}
-    - target: {fileID: 6945564963562894331, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7037210098730801723, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3361,10 +3049,6 @@ PrefabInstance:
     - target: {fileID: 7768271413787867396, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8006149311444040018, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8086204876813164173, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3404,10 +3088,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 729858922008993317, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 1144682577446669617, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3415,10 +3095,6 @@ PrefabInstance:
     - target: {fileID: 1370004786384709907, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1400423830526725523, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1751852751968009722, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3492,17 +3168,9 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3198674341639924663, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 3257913433802051092, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3321827709826875944, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3413247292427756937, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3516,21 +3184,9 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 4098364491741253221, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 4283263985197855537, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 4451317705327739063, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4807201373102203072, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5111004665202023504, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3552,10 +3208,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6289356515787454803, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6305173471683969963, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3568,10 +3220,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6786433064076361008, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
     - target: {fileID: 6787528248845274729, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3579,10 +3227,6 @@ PrefabInstance:
     - target: {fileID: 6945564963562894331, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Name
       value: Window (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6945564963562894331, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7037210098730801723, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
@@ -3599,10 +3243,6 @@ PrefabInstance:
     - target: {fileID: 7768271413787867396, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8006149311444040018, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8086204876813164173, guid: 09696168ad5f44d44ac2df443358a070, type: 3}
       propertyPath: m_Mesh
