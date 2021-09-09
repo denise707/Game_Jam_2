@@ -6,6 +6,31 @@ TagManager:
   tags:
   - CinemachineTarget
   - Clean sofa
+  - Wash hands
+  - Water plant (Center Hall)
+  - Clean dining table
+  - Dust sofa (Living Room)
+  - Take a nap
+  - Wash dishes
+  - Organize wardrobe
+  - Clean table (Guest Hall)
+  - Arrange blue paintings
+  - Read books
+  - Eat lunch
+  - Brush teeth
+  - Empty trash bin
+  - Visit sauna
+  - Relax on couch
+  - Clean toilet
+  - Arrange orange paintings
+  - Clean center table (Living Room)
+  - Fix cabinet (Bedroom)
+  - Clean cabinet (Living Room)
+  - Take shower
+  - Arrange chairs (Guest Hall)
+  - Organize vases (Center Hall)
+  - Clean cabinet (Restroom)
+  - Clean bathtub
   layers:
   - Default
   - TransparentFX
