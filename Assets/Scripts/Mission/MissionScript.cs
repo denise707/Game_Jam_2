@@ -20,35 +20,35 @@ public class MissionScript : MonoBehaviour
 
     List<string> Possible_Missions = new List<string>()
     {
-        //"Water plant",
-        //"Clean dining table",
-        "Clean sofa",
-        //"Take a nap",
-        //"Wash dishes",
+        "Water plant (Center Hall)",
+        "Clean dining table",
+        "Dust sofa (Living Room)",
+        "Take a nap",
+        "Wash dishes",
 
-        //"Organize wardrobe",
-        //"Pick up clutter",
-        //"Laundry",
-        //"Finish homeworks",
-        //"Eat lunch",
+        "Organize wardrobe",
+        "Clean table (Guest Hall)",
+        "Arrange blue paintings",
+        "Read books",
+        "Eat lunch",
 
-        //"Wash hands",
-        //"Brush teeth",
-        //"Empty trash bin",
-        //"Visit sauna",
-        //"Relax on couch",
+        "Wash hands",
+        "Brush teeth",
+        "Empty trash bin",
+        "Visit sauna",
+        "Relax on couch (Guest Hall)",
 
-        //"Clean toilet",
-        //"Arrange paintings",
-        //"Clean cabinets",
-        //"Clean center table (living room)",
-        //"Clean bed (room 2)",
+        "Clean toilet",
+        "Arrange orange paintings",
+        "Fix cabinet (Bedroom)",
+        "Clean center table (Living Room)",
+        "Clean cabinet (Living Room)",
 
-        //"Clean shower (restroom 2)",
-        //"Arrange chairs (guest hall",
-        //"Clean paintings (extra room)",
-        //"Clean sink (restroom 2)",
-        //"Water plant (extra room)"
+        "Take a shower",
+        "Arrange chairs (Guest Hall)",
+        "Organize vases (Center Hall)",
+        "Clean cabinet (Restroom)",
+        "Clean bathtub"
     };
 
     public static List<string> Current_Missions = new List<string>();
@@ -108,14 +108,14 @@ public class MissionScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Current_Missions.Count == 0 && GameSystem.day < 5 && TempTime.hour < 3 && !gameOver)
+        if (Current_Missions.Count == 0 && GameSystem.day < 5 && TempTime.hour < 23 && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
             DoneUI.SetActive(true);
         }
 
-        else if (TempTime.hour >= 3 && !gameOver)
+        else if (TempTime.hour >= 23 && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
@@ -132,7 +132,7 @@ public class MissionScript : MonoBehaviour
             }            
         }
 
-        else if (Current_Missions.Count == 0 && GameSystem.day == 5 && TempTime.hour < 3 && !gameOver)
+        else if (Current_Missions.Count == 0 && GameSystem.day == 5 && TempTime.hour < 23 && !gameOver)
         {
             TempTime.stop = true;
             GameSystem.loading = true;
