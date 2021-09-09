@@ -136,7 +136,7 @@ public class PickUpController : MonoBehaviour
                 loadTime = 5.0f;
                 break;
 
-            case "Take a shower":
+            case "Take shower":
                 loadTime = 10.0f;
                 break;
             case "Arrange chairs (Guest Hall)":
