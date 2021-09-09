@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class TempTime : MonoBehaviour
 {
+    [SerializeField] GameObject sun = null;
+
     public Text timeText;
     public static int day = 1;
     public static int hour = 0;
@@ -49,5 +51,16 @@ public class TempTime : MonoBehaviour
         }
 
         timeText.text = "Day: " + day.ToString() + "\n" + hour.ToString("00") + ":" + (Mathf.Round(minute)).ToString("00");
+
+        if (sun != null)
+            UpdateSunPos();
+    }
+
+    private void UpdateSunPos()
+    {
+        Vector3 sunPos = Vector3.zero;
+        sunPos.x = 360 * (((60 * hour) + minute) / (60 * 24));
+        Debug.Log(sunPos.x);
+        sun.transform.eulerAngles = sunPos;
     }
 }

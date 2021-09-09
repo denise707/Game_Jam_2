@@ -72,84 +72,84 @@ public class PickUpController : MonoBehaviour
     {
         switch (ongoing_task)
         {
-            case "Clean sofa":
-                loadTime = 1.0f;
+            case "Water plant (Center Hall)":
+                loadTime = 5.0f;
                 break;
-            case "Clean table":
-                loadTime = 3.0f;
+            case "Clean dining table":
+                loadTime = 5.0f;
                 break;
-            case "Water plant":
-                loadTime = 1.0f;
+            case "Dust sofa (Living Room)":
+                loadTime = 5.0f;
                 break;
             case "Take a nap":
-                loadTime = 1.0f;
+                loadTime = 10.0f;
                 break;
             case "Wash dishes,":
-                loadTime = 1.0f;
+                loadTime = 5.0f;
                 break;
 
             case "Organize wardrobe":
-                loadTime = 5.0f;
+                loadTime = 10.0f;
                 break;
-            case "Pick up clutter":
+            case "Clean table (Guest Hall)":
                 loadTime = 3.0f;
                 break;
-            case "Laundry":
-                loadTime = 1.0f;
+            case "Arrange blue paintings":
+                loadTime = 5.0f;
                 break;
-            case "Finish homeworks":
-                loadTime = 1.0f;
+            case "Read books":
+                loadTime = 10.0f;
                 break;
             case "Eat lunch":
-                loadTime = 1.0f;
+                loadTime = 10.0f;
                 break;
 
             case "Wash hands":
                 loadTime = 5.0f;
                 break;
             case "Brush teeth":
-                loadTime = 3.0f;
+                loadTime = 5.0f;
                 break;
             case "Empty trash bin":
-                loadTime = 1.0f;
+                loadTime = 5.0f;
                 break;
             case "Visit sauna":
-                loadTime = 1.0f;
+                loadTime = 10.0f;
                 break;
-            case "Relax on couch":
-                loadTime = 1.0f;
+            case "Relax on couch (Guest Hall)":
+                loadTime = 10.0f;
                 break;
 
             case "Clean toilet":
                 loadTime = 5.0f;
                 break;
-            case "Arrange paintings":
+            case "Arrange orange paintings":
                 loadTime = 3.0f;
                 break;
-            case "Clean cabinets":
-                loadTime = 1.0f;
+            case "Fix cabinet (Bedroom)":
+                loadTime = 10.0f;
                 break;
-            case "Clean center table (living room)":
-                loadTime = 1.0f;
-                break;
-            case "Clean bed (room 2)":
-                loadTime = 1.0f;
-                break;
-
-            case "Clean shower (restroom 2)":
+            case "Clean center table (Living Room)":
                 loadTime = 5.0f;
                 break;
-            case "Arrange chairs (guest hall":
-                loadTime = 3.0f;
+            case "Clean cabinet (Living Room)":
+                loadTime = 5.0f;
                 break;
-            case "Clean paintings (extra room)":
-                loadTime = 1.0f;
+
+            case "Take a shower":
+                loadTime = 10.0f;
                 break;
-            case "Clean sink (restroom 2)":
-                loadTime = 1.0f;
+            case "Arrange chairs (Guest Hall)":
+                loadTime = 5.0f;
                 break;
-            case "Water plant (extra room)":
-                loadTime = 1.0f;
+            case "Organize vases (Center Hall)":
+                loadTime = 5.0f;
+                break;
+            case "Clean cabinet (Restroom)":
+                loadTime = 5.0f;
+                break;
+            case "Clean bathtub":
+                loadTime = 5.0f;
                 break;
         }
     }
