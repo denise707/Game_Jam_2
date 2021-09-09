@@ -12918,6 +12918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3228560518712237988, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579747393951783977, guid: 97379e84b32f3ba4189640dfba4ccd50, type: 3}
       propertyPath: m_Mesh
       value: 
