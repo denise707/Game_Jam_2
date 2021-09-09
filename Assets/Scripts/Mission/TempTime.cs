@@ -27,7 +27,7 @@ public class TempTime : MonoBehaviour
     {
         if (!(day == 7 && hour == 23 && minute >= 59.0f) && !stop)
         {
-            minute += Time.deltaTime * 25f;
+            minute += Time.deltaTime /** 25f*/;
 
             if (minute >= 60.0f)
             {

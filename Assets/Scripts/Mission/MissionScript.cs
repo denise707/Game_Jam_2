@@ -40,12 +40,10 @@ public class MissionScript : MonoBehaviour
 
         "Clean toilet",
         "Arrange orange paintings",
-        "Fix cabinet (Bedroom)",
         "Clean center table (Living Room)",
         "Clean cabinet (Living Room)",
 
         "Take shower",
-        "Arrange chairs (Guest Hall)",
         "Organize vases (Center Hall)",
         "Clean cabinet (Restroom)",
         "Clean bathtub"
