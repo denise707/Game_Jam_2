@@ -400,6 +400,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &702854720825433071
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +579,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &1941969493756657513
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +692,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &2083373034307568721
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,6 +837,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!64 &3378754773771902108
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -933,6 +937,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!64 &4070838155596399033
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1443,6 +1448,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &5997192061453761477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,6 +1657,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &6359852015510467654
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +1962,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &7467294699121480442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,6 +2010,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &7722683776178118778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,6 +2178,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &7963431356748537287
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,6 +2291,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &8037090858821342004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,6 +2339,7 @@ MonoBehaviour:
   player: {fileID: 0}
   pickUpRange: 1.5
   loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1001 &152574552018189605
 PrefabInstance:
   m_ObjectHideFlags: 0
