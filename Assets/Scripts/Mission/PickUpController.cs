@@ -31,6 +31,7 @@ public class PickUpController : MonoBehaviour
         }
         Vector3 distanceToPlayer = player.position - transform.position;
         if (distanceToPlayer.magnitude <= pickUpRange && Input.GetKeyDown(KeyCode.E) && !loading) {
+            loadingUI.transform.GetChild(1).GetComponent<Text>().text = this.tag;
             loading = true;
             ongoing_task = this.tag;
             StartCoroutine(Loading());
