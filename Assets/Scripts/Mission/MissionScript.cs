@@ -27,12 +27,9 @@ public class MissionScript : MonoBehaviour
         "Wash dishes",
 
         "Organize wardrobe",
-        "Clean table (Guest Hall)",
         "Arrange blue paintings",
         "Read books",
-        "Eat lunch",
 
-        "Wash hands",
         "Brush teeth",
         "Empty trash bin",
         "Visit sauna",
