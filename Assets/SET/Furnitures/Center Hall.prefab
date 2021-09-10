@@ -155,10 +155,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4686349736915968315}
-  - component: {fileID: 3730427757096621473}
   m_Layer: 0
   m_Name: Wall_Frames_v4 (1)
-  m_TagString: Arrange orange paintings
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -179,22 +178,6 @@ Transform:
   m_Father: {fileID: 4686349738241802443}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!114 &3730427757096621473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782298237887412642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!1 &1269936167211376075
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,10 +379,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4686349736930080944}
-  - component: {fileID: 4296019883225263385}
   m_Layer: 0
   m_Name: Wall_Frames_v4 (2)
-  m_TagString: Arrange orange paintings
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -420,22 +402,6 @@ Transform:
   m_Father: {fileID: 4686349738241802443}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4296019883225263385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090486732351969391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!1 &2444477229338748202
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,9 +495,10 @@ GameObject:
   - component: {fileID: 3647943492987757041}
   - component: {fileID: 2391673863388028556}
   - component: {fileID: 1681942687500376479}
+  - component: {fileID: 1427181430}
   m_Layer: 0
   m_Name: Object008
-  m_TagString: Untagged
+  m_TagString: Arrange orange paintings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -613,6 +580,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
+--- !u!114 &1427181430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2950907422770357158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &4120097270047042734
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,9 +864,10 @@ GameObject:
   - component: {fileID: 7175890237781932447}
   - component: {fileID: 2229397286196007833}
   - component: {fileID: 5112272113512624445}
+  - component: {fileID: 577880179}
   m_Layer: 0
   m_Name: rack_5 (1)
-  m_TagString: Untagged
+  m_TagString: Organize vases (Center Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -965,13 +949,13 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: fb246b0516d4e7f43b2e77d5ab04ab7f, type: 3}
---- !u!114 &7240793438755191727
+--- !u!114 &577880179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4686349736418271832}
+  m_GameObject: {fileID: 4533867739739257694}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
@@ -995,6 +979,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
+--- !u!114 &471756367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686349736418271834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!64 &3293985359944841044
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1009,22 +1009,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
---- !u!114 &7109779809655204584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4686349736847041440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!64 &8495726583232966946
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1039,6 +1023,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
+--- !u!114 &1441856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686349736847041442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!64 &7980960331859449818
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1109,13 +1109,13 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
---- !u!114 &7112228269917376191
+--- !u!114 &1736397652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4686349737196680350}
+  m_GameObject: {fileID: 4686349737196680348}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
@@ -1538,9 +1538,10 @@ GameObject:
   - component: {fileID: 2791517937675983784}
   - component: {fileID: 6276932837342938221}
   - component: {fileID: 9041343002626419167}
+  - component: {fileID: 909289736}
   m_Layer: 0
   m_Name: Object008
-  m_TagString: Untagged
+  m_TagString: Arrange orange paintings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1622,6 +1623,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
+--- !u!114 &909289736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5561830477202894665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &5630033982746104907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,9 +1681,10 @@ GameObject:
   - component: {fileID: 2435448775188172439}
   - component: {fileID: 4152503185279709907}
   - component: {fileID: 2019506575467210723}
+  - component: {fileID: 1768517724}
   m_Layer: 0
   m_Name: rack_3 (4)
-  m_TagString: Untagged
+  m_TagString: Organize vases (Center Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1748,6 +1766,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 27df19f247bebd344813479f564c4ef6, type: 3}
+--- !u!114 &1768517724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5811002726861929111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &6019441494794615365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,9 +1793,10 @@ GameObject:
   - component: {fileID: 4832310834638375791}
   - component: {fileID: 5275635476578196325}
   - component: {fileID: 3084260126595632428}
+  - component: {fileID: 294518509}
   m_Layer: 0
   m_Name: Object008
-  m_TagString: Untagged
+  m_TagString: Arrange orange paintings
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1829,6 +1864,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &294518509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019441494794615365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &6600714179958070212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,10 +1985,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4686349738043139635}
-  - component: {fileID: 3245860132029892487}
   m_Layer: 0
   m_Name: Wall_Frames_v4
-  m_TagString: Arrange orange paintings
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1958,22 +2008,6 @@ Transform:
   m_Father: {fileID: 4686349738241802443}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &3245860132029892487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7076707178358195300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!1 &7769591649596164830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,9 +2212,10 @@ GameObject:
   - component: {fileID: 7801821789941624200}
   - component: {fileID: 8789545296098966829}
   - component: {fileID: 6158863757295653525}
+  - component: {fileID: 1366176947}
   m_Layer: 0
   m_Name: rack_4 (1)
-  m_TagString: Untagged
+  m_TagString: Organize vases (Center Hall)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2262,6 +2297,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: db2ded63075b6cd41aaa7d8a85da232d, type: 3}
+--- !u!114 &1366176947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8121445159317794120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &8407288628034420429
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,11 +2422,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
       propertyPath: m_TagString
-      value: Arrange blue paintings
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
+      propertyPath: m_TagString
+      value: Arrange blue paintings
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2451,9 +2506,9 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c058ba9200020b44fb967f76fdb56242, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
---- !u!4 &4686349736418180728 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
+--- !u!1 &4686349736418271834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
   m_PrefabInstance: {fileID: 4686349736418305272}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4686349736418271836 stripped
@@ -2461,14 +2516,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
   m_PrefabInstance: {fileID: 4686349736418305272}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4686349736418271834 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100002, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
-  m_PrefabInstance: {fileID: 4686349736418305272}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4686349736418271832 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
+--- !u!4 &4686349736418180728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: e40eaddea9188e045ab919baedbcdfdc, type: 3}
   m_PrefabInstance: {fileID: 4686349736418305272}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4686349736744197506
@@ -2540,14 +2590,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f9c93a8e37934c4a9e39b1ca00d6854, type: 3}
---- !u!1 &4688048828843923624 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1699655378240810, guid: 5f9c93a8e37934c4a9e39b1ca00d6854, type: 3}
-  m_PrefabInstance: {fileID: 4686349736744197506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4685606081961006194 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4468030575741424, guid: 5f9c93a8e37934c4a9e39b1ca00d6854, type: 3}
+  m_PrefabInstance: {fileID: 4686349736744197506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4688048828843923624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1699655378240810, guid: 5f9c93a8e37934c4a9e39b1ca00d6854, type: 3}
   m_PrefabInstance: {fileID: 4686349736744197506}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4687664143372378454 stripped
@@ -2568,11 +2618,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
       propertyPath: m_TagString
-      value: Arrange blue paintings
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
+      propertyPath: m_TagString
+      value: Arrange blue paintings
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2653,19 +2707,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
   m_PrefabInstance: {fileID: 4686349736847009024}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4686349736847041444 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
-  m_PrefabInstance: {fileID: 4686349736847009024}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4686349736847041442 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
   m_PrefabInstance: {fileID: 4686349736847009024}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4686349736847041440 stripped
+--- !u!1 &4686349736847041444 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
   m_PrefabInstance: {fileID: 4686349736847009024}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4686349736952859740
@@ -2737,6 +2786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2192f269f0c9dc545912c8c4d6f366ff, type: 3}
+--- !u!1 &4687183332472900964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1541694038196536, guid: 2192f269f0c9dc545912c8c4d6f366ff, type: 3}
+  m_PrefabInstance: {fileID: 4686349736952859740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4687321561013165418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1676075359408438, guid: 2192f269f0c9dc545912c8c4d6f366ff, type: 3}
@@ -2745,11 +2799,6 @@ GameObject:
 --- !u!4 &4690522500723086556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4880857991059584, guid: 2192f269f0c9dc545912c8c4d6f366ff, type: 3}
-  m_PrefabInstance: {fileID: 4686349736952859740}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4687183332472900964 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1541694038196536, guid: 2192f269f0c9dc545912c8c4d6f366ff, type: 3}
   m_PrefabInstance: {fileID: 4686349736952859740}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4686349737001859046
@@ -2825,11 +2874,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 269215a743ee53b4ebee59a459741c1e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf7bf21b491a8b4c91cb5e00b99e20f, type: 3}
---- !u!4 &4686349737001725282 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400004, guid: daf7bf21b491a8b4c91cb5e00b99e20f, type: 3}
-  m_PrefabInstance: {fileID: 4686349737001859046}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4686349737001759044 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: daf7bf21b491a8b4c91cb5e00b99e20f, type: 3}
@@ -2838,6 +2882,11 @@ GameObject:
 --- !u!1 &4686349737001759046 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: daf7bf21b491a8b4c91cb5e00b99e20f, type: 3}
+  m_PrefabInstance: {fileID: 4686349737001859046}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4686349737001725282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: daf7bf21b491a8b4c91cb5e00b99e20f, type: 3}
   m_PrefabInstance: {fileID: 4686349737001859046}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4686349737196778046
@@ -2853,11 +2902,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
       propertyPath: m_TagString
-      value: Arrange blue paintings
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
+      propertyPath: m_TagString
+      value: Arrange blue paintings
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2933,19 +2986,14 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c058ba9200020b44fb967f76fdb56242, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
---- !u!1 &4686349737196680350 stripped
+--- !u!1 &4686349737196680348 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
   m_PrefabInstance: {fileID: 4686349737196778046}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &4686349737196906686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
-  m_PrefabInstance: {fileID: 4686349737196778046}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4686349737196680348 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100002, guid: 8272946761673034fb91c1f73fb74afa, type: 3}
   m_PrefabInstance: {fileID: 4686349737196778046}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4686349737196680346 stripped
@@ -3039,19 +3087,9 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1176536286066638, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
   m_PrefabInstance: {fileID: 4686349737459289532}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4687198880227696792 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1412657510165796, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
-  m_PrefabInstance: {fileID: 4686349737459289532}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4688032265318974942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1828213217675362, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
-  m_PrefabInstance: {fileID: 4686349737459289532}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4687524249466444444 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1174527123625760, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
   m_PrefabInstance: {fileID: 4686349737459289532}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &4687248043064071294 stripped
@@ -3059,9 +3097,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1461264215382466, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
   m_PrefabInstance: {fileID: 4686349737459289532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4687198880227696792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1412657510165796, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
+  m_PrefabInstance: {fileID: 4686349737459289532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4685652439476563178 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4374203695423830, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
+  m_PrefabInstance: {fileID: 4686349737459289532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4687524249466444444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1174527123625760, guid: 4cd7f3d80b1db5145bce003e151df067, type: 3}
   m_PrefabInstance: {fileID: 4686349737459289532}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4686349737565188567
@@ -3228,13 +3276,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 94233076800936b488aa855be616860c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec02bd1057a3ff418a0bc0652b27cff, type: 3}
---- !u!4 &4686349737846587771 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: bec02bd1057a3ff418a0bc0652b27cff, type: 3}
-  m_PrefabInstance: {fileID: 4686349737846201339}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4686349737846168923 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: bec02bd1057a3ff418a0bc0652b27cff, type: 3}
+  m_PrefabInstance: {fileID: 4686349737846201339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4686349737846587771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: bec02bd1057a3ff418a0bc0652b27cff, type: 3}
   m_PrefabInstance: {fileID: 4686349737846201339}
   m_PrefabAsset: {fileID: 0}

@@ -253,10 +253,9 @@ GameObject:
   - component: {fileID: 7659382817581149350}
   - component: {fileID: 911539427356475174}
   - component: {fileID: 7559055395777265856}
-  - component: {fileID: 6562014394424493410}
   m_Layer: 0
   m_Name: rack_4
-  m_TagString: Fix cabinet (Bedroom)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -338,22 +337,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: db2ded63075b6cd41aaa7d8a85da232d, type: 3}
---- !u!114 &6562014394424493410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277787352679825343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!1 &417806389266759083
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,7 +920,6 @@ GameObject:
   - component: {fileID: 1745818353019028363}
   - component: {fileID: 3651213805585482310}
   - component: {fileID: 3727265139792619714}
-  - component: {fileID: 2095865282572716297}
   m_Layer: 0
   m_Name: Books2_4
   m_TagString: Untagged
@@ -1024,20 +1006,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &2095865282572716297
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587066935949840008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: c847ef6503ba31941af9a0ecda25fd45, type: 3}
 --- !u!1 &1833214463833089911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1018,6 @@ GameObject:
   - component: {fileID: 572624623337740825}
   - component: {fileID: 3803285880223993224}
   - component: {fileID: 7754546964362035416}
-  - component: {fileID: 4030639633723853873}
   m_Layer: 0
   m_Name: Books2_4 (1)
   m_TagString: Untagged
@@ -1137,20 +1104,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &4030639633723853873
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833214463833089911}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: c847ef6503ba31941af9a0ecda25fd45, type: 3}
 --- !u!1 &1940625484287402420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,10 +1146,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3699397427709265481}
-  - component: {fileID: 4065407574127398518}
   m_Layer: 0
   m_Name: cabinet_2
-  m_TagString: Organize wardrobe
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1219,22 +1171,6 @@ Transform:
   m_Father: {fileID: 3346754150884055199}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
---- !u!114 &4065407574127398518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075494320552782748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!1 &2147278402507035951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4026,9 +3962,10 @@ GameObject:
   - component: {fileID: 5542823798684618415}
   - component: {fileID: 4988426891474343339}
   - component: {fileID: 673247551910155487}
+  - component: {fileID: 518717996}
   m_Layer: 0
   m_Name: doors
-  m_TagString: Untagged
+  m_TagString: Organize wardrobe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -4110,6 +4047,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300006, guid: 821d897858fdee444811c1ee3d5ba830, type: 3}
+--- !u!114 &518717996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6858803807783442413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  pickUpRange: 1.5
+  loadingUI: {fileID: 0}
+  gameStart: 1
 --- !u!1 &6991850594807717689
 GameObject:
   m_ObjectHideFlags: 0
@@ -5051,7 +5004,6 @@ GameObject:
   - component: {fileID: 2289024772756364408}
   - component: {fileID: 7665410784135990651}
   - component: {fileID: 951629974031346252}
-  - component: {fileID: 4847936660267728956}
   m_Layer: 0
   m_Name: rack_5
   m_TagString: Untagged
@@ -5136,22 +5088,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: fb246b0516d4e7f43b2e77d5ab04ab7f, type: 3}
---- !u!114 &4847936660267728956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9048866230850388932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6804d4c45ea94a5428d70416e44c71e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  pickUpRange: 1.5
-  loadingUI: {fileID: 0}
-  gameStart: 1
 --- !u!1 &9147226631995226434
 GameObject:
   m_ObjectHideFlags: 0
@@ -5196,7 +5132,6 @@ GameObject:
   - component: {fileID: 7530637143396737177}
   - component: {fileID: 7835691643659360189}
   - component: {fileID: 2611947081546772158}
-  - component: {fileID: 3393514579382029287}
   m_Layer: 0
   m_Name: Books2_4 (2)
   m_TagString: Untagged
@@ -5283,17 +5218,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &3393514579382029287
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9208769678842307463}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: c847ef6503ba31941af9a0ecda25fd45, type: 3}

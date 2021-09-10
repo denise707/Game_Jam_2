@@ -31,6 +31,8 @@ TagManager:
   - Organize vases (Center Hall)
   - Clean cabinet (Restroom)
   - Clean bathtub
+  - loadingUI
+  - Relax on couch (Guest Hall)
   layers:
   - Default
   - TransparentFX

@@ -114,22 +114,13 @@ public class PickUpController : MonoBehaviour
             case "Organize wardrobe":
                 loadTime = 10.0f;
                 break;
-            case "Clean table (Guest Hall)":
-                loadTime = 3.0f;
-                break;
             case "Arrange blue paintings":
                 loadTime = 5.0f;
                 break;
             case "Read books":
                 loadTime = 10.0f;
                 break;
-            case "Eat lunch":
-                loadTime = 10.0f;
-                break;
 
-            case "Wash hands":
-                loadTime = 5.0f;
-                break;
             case "Brush teeth":
                 loadTime = 5.0f;
                 break;
