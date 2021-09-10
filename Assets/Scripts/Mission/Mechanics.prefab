@@ -1370,6 +1370,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2706092589384977873, guid: b7f89f2334f6b824eb6c5bb791f0b1cc, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 210
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706092589384977873, guid: b7f89f2334f6b824eb6c5bb791f0b1cc, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706092589384977873, guid: b7f89f2334f6b824eb6c5bb791f0b1cc, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706092589384977875, guid: b7f89f2334f6b824eb6c5bb791f0b1cc, type: 3}
+      propertyPath: m_MinHeight
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706092589384977875, guid: b7f89f2334f6b824eb6c5bb791f0b1cc, type: 3}
+      propertyPath: m_PreferredHeight
+      value: 26
+      objectReference: {fileID: 0}
     - target: {fileID: 2706092589384977878, guid: b7f89f2334f6b824eb6c5bb791f0b1cc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
