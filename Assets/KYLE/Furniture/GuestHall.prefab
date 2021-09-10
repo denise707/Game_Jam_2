@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 7614125527733381517}
   m_Layer: 0
   m_Name: Musa_Chair (5)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 6040235092518762086}
   m_Layer: 0
   m_Name: Musa_Chair (7)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -595,7 +595,7 @@ GameObject:
   - component: {fileID: 6221640695071524379}
   m_Layer: 0
   m_Name: Musa_Chair (2)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1351,7 +1351,7 @@ GameObject:
   - component: {fileID: 3771249100961859684}
   m_Layer: 0
   m_Name: Musa_Chair (3)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1560,7 +1560,7 @@ GameObject:
   - component: {fileID: 7296511840138760945}
   m_Layer: 0
   m_Name: Musa_Chair (4)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1865,7 +1865,7 @@ GameObject:
   - component: {fileID: 6736992965325641267}
   m_Layer: 0
   m_Name: Musa_Chair (1)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1975,7 +1975,7 @@ GameObject:
   - component: {fileID: 5341457100741570464}
   m_Layer: 0
   m_Name: Recipio_SmallTable
-  m_TagString: Clean table (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2081,7 +2081,7 @@ GameObject:
   - component: {fileID: 3548370568655978195}
   m_Layer: 0
   m_Name: Musa_Chair (8)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 3453321987630846844}
   m_Layer: 0
   m_Name: Musa_Chair (6)
-  m_TagString: Arrange chairs (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2304,7 +2304,7 @@ GameObject:
   - component: {fileID: 4492123738538763388}
   m_Layer: 0
   m_Name: Recipio_SmallTable (1)
-  m_TagString: Clean table (Guest Hall)
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
