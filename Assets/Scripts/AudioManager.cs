@@ -44,7 +44,7 @@ public class AudioManager : MonoBehaviour
     public void PlaySound(AudioClip sound)
     {
         if(sound != null)
-            AudioSource.PlayClipAtPoint(sound, audioSource.gameObject.transform.position);
+            AudioSource.PlayClipAtPoint(sound, audioSource.gameObject.transform.position, audioSource.volume);
     }
 
     public void PlayBGM()
