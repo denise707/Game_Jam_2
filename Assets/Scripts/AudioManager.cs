@@ -8,8 +8,15 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
 
     public AudioSource audioSource;
+    
+    
     public AudioClip BGM;
-    public AudioClip pickupSound;
+    public AudioClip StartTask;
+    public AudioClip EndTask;
+    public AudioClip LoseLife;
+    public AudioClip LoseGame;
+    public AudioClip WinGame;
+    
     private void Awake()
     {
         if (Instance == null)
@@ -34,9 +41,16 @@ public class AudioManager : MonoBehaviour
         
     }
 
-    public void PlayPickupSound()
+    public void PlaySound(AudioClip sound)
     {
-        AudioSource.PlayClipAtPoint(pickupSound, audioSource.gameObject.transform.position);
+        if(sound != null)
+            AudioSource.PlayClipAtPoint(sound, audioSource.gameObject.transform.position);
+    }
+
+    public void PlayBGM()
+    {
+        audioSource.clip = BGM;
+        audioSource.Play();
     }
 
     public void StopBGM()
