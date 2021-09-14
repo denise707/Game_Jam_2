@@ -44,6 +44,7 @@ public class UICallbacks : MonoBehaviour
     public void OnMainMenu(GameObject options)
     {
         Time.timeScale = 0;
+        GameSystem.day = 1;
         options.SetActive(false);
         SceneManager.LoadScene("MainMenu");
     }
