@@ -20,7 +20,7 @@ public class UICallbacks : MonoBehaviour
     public void OnPlay()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Room 1");
+        SceneManager.LoadScene("Assembled Room");
     }
 
     public void OnQuit()
