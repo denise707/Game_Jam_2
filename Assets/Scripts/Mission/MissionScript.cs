@@ -116,15 +116,17 @@ public class MissionScript : MonoBehaviour
             TempTime.stop = true;
             GameSystem.loading = true;
 
-            if(playerHealth.LivesRemaining.Count > 1)
+            if(playerHealth.LivesRemaining.Count > 1 && !OvertimeUI.activeInHierarchy)
             {
                 OvertimeUI.SetActive(true);
+                AudioManager.Instance.PlaySound(AudioManager.Instance.LoseLife);
             }
 
             else
             {
                 playerHealth.TakeDamage();
                 gameOver = true;
+                AudioManager.Instance.PlaySound(AudioManager.Instance.LoseGame);
             }            
         }
 
@@ -133,6 +135,7 @@ public class MissionScript : MonoBehaviour
             TempTime.stop = true;
             GameSystem.loading = true;
             EventBroadcaster.Instance.PostEvent(EventNames.ON_PLAYER_WIN);
+            AudioManager.Instance.PlaySound(AudioManager.Instance.WinGame);
         }
     }
 

@@ -35,6 +35,7 @@ public class PickUpController : MonoBehaviour
             loading = true;
             ongoing_task = this.tag;
             StartCoroutine(Loading());
+            AudioManager.Instance.PlaySound(AudioManager.Instance.StartTask);
         }
 
         if (loading)
@@ -51,6 +52,7 @@ public class PickUpController : MonoBehaviour
                 GameSystem.loading = false;
                 loading = false;
                 ticks = 0.0f;
+                AudioManager.Instance.PlaySound(AudioManager.Instance.EndTask);
             }
         }
     }
